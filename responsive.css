@@ -1,0 +1,40 @@
+@media screen and (max-width: 2000px){
+
+    header{
+
+        display: flex;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        width: 120rem;
+        height: 80px;
+    
+    }
+
+    header h1{
+
+        position: absolute;
+        color:white;
+        left: 50rem;
+    
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1910px){
+
+    header{
+
+        display: flex;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        width: 120rem;
+        height: 80px;
+    
+    }
+
+}
