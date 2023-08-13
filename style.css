@@ -1,0 +1,51 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    width: 1865px;
+    height: 80px;
+
+}
+
+header h1{
+
+    position: absolute;
+    color:white;
+
+}
+
+.hamburger{
+
+    display: flex;
+    position: relative;
+    left: 600px;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.camada{
+
+    width: 30px;
+    height: 3px;
+    margin: 3px 0;
+    background-color: rgb(255, 255, 255);
+
+}
