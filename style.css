@@ -19,7 +19,7 @@ header{
     background-color: black;
     align-items: center;
     justify-content: center;
-    width: 1865px;
+    width: 116,0rem;
     height: 80px;
 
 }
@@ -28,6 +28,14 @@ header h1{
 
     position: absolute;
     color:white;
+    left: 830px;
+
+}
+
+.menu img{
+
+    position: absolute;
+    width: 100px;
 
 }
 
@@ -36,7 +44,7 @@ header h1{
 
     display: flex;
     position: relative;
-    left: 600px;
+    left: 500px;
     flex-direction: column;
     cursor: pointer;
 
@@ -66,7 +74,6 @@ header h1{
     box-shadow: 0 0 20px rgb(23, 23, 23);
     justify-content: center;
     text-align: center;
-    padding: 10px;
 
 }
 
@@ -85,9 +92,17 @@ header h1{
 
 }
 
-.menu a:hover{
+.menu li{
 
-    background-color: blue;
+    position: relative;
+    top: 100px;
+
+}
+
+.menu li:hover{
+
+    width: 200px;
+    background-color: rgb(51, 51, 51);
 
 }
 
