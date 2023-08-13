@@ -31,6 +31,7 @@ header h1{
 
 }
 
+/* Menu Hamburger */
 .hamburger{
 
     display: flex;
@@ -47,5 +48,51 @@ header h1{
     height: 3px;
     margin: 3px 0;
     background-color: rgb(255, 255, 255);
+
+}
+/* Menu Hamburger */
+
+.menu{
+
+    display: flex;
+    top: 0px;
+    width: 200px;
+    height: 100%;
+    left: -215px;
+    position: fixed;
+    transition: 0.3s ease;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 0 0 20px rgb(23, 23, 23);
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.menu.show-menu{
+
+    left: 0;
+
+}
+
+.menu a{
+
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+
+.menu a:hover{
+
+    background-color: blue;
+
+}
+
+.menu li{
+
+    list-style: none;
+    margin-top: 10px;
 
 }
