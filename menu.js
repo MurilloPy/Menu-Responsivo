@@ -14,8 +14,8 @@ document.addEventListener("click", (event) => {
 
     if (!hamburger.contains(targetElement) && !menu.contains(targetElement)){
 
-        hamburger.classList.remove("open");
-        menu.classList.remove("show-menu");
+        hamburger.classList.remove("open")
+        menu.classList.remove("show-menu")
 
     };
 
